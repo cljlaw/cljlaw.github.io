@@ -3615,7 +3615,7 @@ a.list-group-item.active > .badge,
     transform: translateY(-50%);
     left: 0;
     right: 0;
-    margin-left: 2%;
+    margin-left: 8%;
     margin-right: auto;
     color: grey;
     /*background-color: rgba(0, 0, 0, 0.4);*/
