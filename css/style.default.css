@@ -3779,4 +3779,16 @@ iframe{
 iframe{
   width: 250px;
 }
+
+}
+
+
+#loading {
+      position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('..\\media\\logo_loader.gif')  center no-repeat  white;
 }

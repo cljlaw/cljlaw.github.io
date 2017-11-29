@@ -80,9 +80,15 @@
       <link rel="stylesheet" type="text/css" href="slick/slick.css">
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 </head>
-
+<script type="text/javascript">
+          $(window).load(function() {
+            // alert("ok");
+    $('#loading').fadeOut("slow");
+});
+</script>
 <body>
 
+<div id="loading"></div>
     <div id="all">
 
         <header>
@@ -143,8 +149,8 @@ _________________________________________________________ -->
                         <div class="navbar-header">
 
                             <a class="navbar-brand home" href="index.html">
-                                <img src="img/logo.png" alt="CLJ" class="hidden-xs hidden-sm">
-                                <img src="img/logo.png" alt="CLJ" class="visible-xs visible-sm"><span class="sr-only">CLJ - go to homepage</span>
+                                <img src="media/logo.png" alt="CLJ" class="hidden-xs hidden-sm">
+                                <img src="media/logo.png" alt="CLJ" class="visible-xs visible-sm"><span class="sr-only">CLJ - go to homepage</span>
                             </a>
                             <div class="navbar-buttons">
                                 <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -941,6 +947,7 @@ _________________________________________________________ -->
     </div>
     <!-- /#all -->
       <script type="text/javascript">
+  
     $(document).on('ready', function() {
       $(".vertical-center-4").slick({
         dots: true,
